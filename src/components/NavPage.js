@@ -12,6 +12,7 @@ import Listusers from "../pages/Listusers";
 import Addusers from "../pages/Addusers";
 import Listcompanies from "../pages/Listcompanies";
 import Addcompanies from "../pages/Addcompanies";
+import Companypaymenthistory from "../pages/Companypaymenthistory";
 
 const NavPage = () => {
   return (
@@ -29,6 +30,7 @@ const NavPage = () => {
           <Route path='/Adduser' element={<Addusers/>}/>
           <Route path="/Listcompanies" element={<Listcompanies/>}/>
           <Route path="/Addcompanies" element={<Addcompanies/>}/>
+          <Route path="/companypaymenthistory" element={<Companypaymenthistory/>}/>
         </Routes>
       </section>
     </React.Fragment>

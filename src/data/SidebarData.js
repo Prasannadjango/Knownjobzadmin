@@ -30,7 +30,7 @@ function SidebarData() {
           <SubMenu icon={ <FaIcons.FaRegAddressCard className="fs-5"/>} label="Company">
             <MenuItem routerLink={<Link to='/Listcompanies'/>}> List Companies </MenuItem>
             <MenuItem routerLink={<Link to='/Addcompanies'/>}> Add Companies </MenuItem>
-            <MenuItem>  Payment History</MenuItem>
+            <MenuItem routerLink={<Link to='/companypaymenthistory'/>}>  Payment History</MenuItem>
           </SubMenu>
 
           <SubMenu icon={ <BaIcons.BsFillFilePersonFill  className="fs-5"/>} label="User-Profiles">
