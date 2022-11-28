@@ -87,6 +87,34 @@ function Addcompanies() {
               <option value="2">Two</option>
               <option value="3">Three</option>
             </Form.Select>
+            <label className="fs-6">Packages:</label>
+            <Form.Select
+              aria-label="Default select example"
+              className="py-2 mb-3"
+            >
+              <option>Select the Packages</option>
+              <option value="1">One</option>
+              <option value="2">Two</option>
+              <option value="3">Three</option>
+            </Form.Select>
+            <label className="fs-6">Is-Active:</label>
+            <div className="d-flex">
+              <Form.Check
+                className="py-2 mb-3 me-3"
+                type="checkbox"
+                label="Yes"
+              />
+              <Form.Check className="py-2 mb-3" type="checkbox" label="No" />
+            </div>
+            <label className="fs-6">Is-Featured:</label>
+            <div className="d-flex">
+              <Form.Check
+                className="py-2 mb-3 me-3"
+                type="checkbox"
+                label="Yes"
+              />
+              <Form.Check className="py-2 mb-3" type="checkbox" label="No" />
+            </div>
             <Button className="Btn_color py-2 mt-2" type='sumbit'>Add New Company</Button>
           </Form>
         </div>
