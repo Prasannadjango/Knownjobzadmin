@@ -13,8 +13,8 @@ import {
 } from "react-bootstrap";
 const Listcompanies = () => {
   const navigate = useNavigate();
-  const navigateToAdduser = () => {
-    navigate("/Adduser");
+  const navigateToAddcompanies = () => {
+    navigate("/Addcompanies");
   };
   const renderTooltip = (props) => (
     <Tooltip id="button-tooltip" {...props}>
@@ -47,7 +47,7 @@ const Listcompanies = () => {
             </div>
             <Button
               className="Btn_color d-flex align-content-center py-2"
-              onClick={navigateToAdduser}
+              onClick={navigateToAddcompanies}
             >
               <FaIcons.FaFolderPlus className="fs-5 me-3 " />
               Add New Companies
