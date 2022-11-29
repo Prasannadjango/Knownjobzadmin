@@ -21,6 +21,9 @@ label{
 .navbar-brand {
   width: 175px;
 }
+.ktVuSn{
+  overflow: inherit !important;
+}
 .Tabs_content>div:nth-child(1){
   border-bottom: 2px solid var(--secondary-color);
 }

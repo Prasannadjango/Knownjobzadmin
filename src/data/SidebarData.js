@@ -39,13 +39,15 @@ function SidebarData() {
           </SubMenu>
 
           <SubMenu icon={ <FaIcons.FaTasks className="fs-5"/>} label="C.M.S">
-            <MenuItem> List C.M.S </MenuItem>
-            <MenuItem> Add C.M.S </MenuItem>
+            <MenuItem routerLink={<Link to='/Listcms'/>}> List C.M.S </MenuItem>
+            <MenuItem routerLink={<Link to='/Addcmspage'/>}> Add C.M.S </MenuItem>
+            <MenuItem routerLink={<Link to='/ListTranslatedpage'/>}> List Translated Pages </MenuItem>
+            <MenuItem > Add New Translated Page </MenuItem>
           </SubMenu>
 
           <SubMenu icon={ <FaIcons.FaLanguage className="fs-5"/>} label="Languages">
-            <MenuItem> List Languages </MenuItem>
-            <MenuItem> Add Languages</MenuItem>
+            <MenuItem routerLink={<Link to='/ListLanguages'/>}> List Languages </MenuItem>
+            <MenuItem routerLink={<Link to='/AddLanguage'/>}> Add Languages</MenuItem>
           </SubMenu>
 
           <SubMenu icon={ <FaIcons.FaGlobeAsia className="fs-5"/>} label="Countries">
