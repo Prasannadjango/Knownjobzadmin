@@ -18,12 +18,12 @@ const Listcountries = () => {
   };
   const renderTooltip = (props) => (
     <Tooltip id="button-tooltip" {...props}>
-      Edit cms pages
+      Edit Countries
     </Tooltip>
   );
   const DeleteTooltip = (props) => (
     <Tooltip id="button-tooltip" {...props}>
-      Delete cms pages
+      Delete Countries
     </Tooltip>
   );
 

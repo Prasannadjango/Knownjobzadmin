@@ -57,18 +57,23 @@ function SidebarData() {
           </SubMenu>
 
           <SubMenu icon={<BaIcons.BsCursorFill className="fs-5"/>} label="State">
-            <MenuItem> List State </MenuItem>
-            <MenuItem> Add State</MenuItem>
+            <MenuItem routerLink={<Link to='/Liststate'/>}> List State </MenuItem>
+            <MenuItem routerLink={<Link to='/Addstate'/>}> Add State</MenuItem>
+          </SubMenu>
+
+          <SubMenu icon={ <FaIcons.FaCity className="fs-5"/>} label="City">
+            <MenuItem routerLink={<Link to='/Listcity' />}> List Cities </MenuItem>
+            <MenuItem routerLink={<Link to='/Addcity' />}>Add City</MenuItem>
           </SubMenu>
 
           <SubMenu icon={<FaIcons.FaInbox className="fs-5"/>} label="Packages">
-            <MenuItem> List Packages</MenuItem>
-            <MenuItem> Add Packages</MenuItem>
+            <MenuItem routerLink={<Link to='/Listpackages' />}> List Packages</MenuItem>
+            <MenuItem routerLink={<Link to='/Addpackages' />}> Add Packages</MenuItem>
           </SubMenu>
 
           <SubMenu icon={<FaIcons.FaGraduationCap className="fs-5"/>} label="Career-level">
-            <MenuItem> List Career-level</MenuItem>
-            <MenuItem> Add Career-level</MenuItem>
+            <MenuItem routerLink={<Link to='/Listcareerlevel' />}> List Career-level</MenuItem>
+            <MenuItem routerLink={<Link to='/Addcareerlevel' />}> Add Career-level</MenuItem>
           </SubMenu>
 
           <SubMenu icon={<FaIcons.FaBuilding  className="fs-5"/>} label="Functional-areas">

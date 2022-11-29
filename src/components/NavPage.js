@@ -20,6 +20,14 @@ import AddLanguage from "../pages/AddLanguages";
 import ListLanguage from "../pages/ListLanguages";
 import Listcountries from "../pages/Listcountries";
 import Addcountries from "../pages/Addcountries";
+import Liststate from "../pages/Liststate";
+import Addstate from "../pages/Addstate";
+import Addcity from "../pages/Addcity";
+import Listcity from "../pages/Listcity";
+import ListPackages from "../pages/Listpackages";
+import Addpackage from "../pages/Addpackage";
+import Listcareerlevel from "../pages/Listcareerlevel";
+import Addcareerlevel from "../pages/Addcareerlevel";
 
 const NavPage = () => {
   return (
@@ -30,21 +38,32 @@ const NavPage = () => {
           <Route path="/Listadduser" element={<Listadduser />} />
           <Route path="/Addadminusers" element={<Addadminusers />} />
           <Route path="/Listad" element={<Listad />} />
-          <Route path="/Addads" element={<Addads/>}/>
-          <Route path='/Listjobs' element={<Listjob/>}/>
-          <Route path='/Addjobs' element={<Addjobs/>}/>
-          <Route path='/Listusers' element={<Listusers/>}/>
-          <Route path='/Adduser' element={<Addusers/>}/>
-          <Route path="/Listcompanies" element={<Listcompanies/>}/>
-          <Route path="/Addcompanies" element={<Addcompanies/>}/>
-          <Route path="/companypaymenthistory" element={<Companypaymenthistory/>}/>
-          <Route path='/Listcms' element={<Listcms/>}/>
-          <Route path="/Addcmspage" element={<Addcmspage/>}/>
-          <Route path='/ListTranslatedpage' element={<ListTranslatedpage/>}/>
-          <Route path='/AddLanguage' element={<AddLanguage/>}/>
-          <Route path="/ListLanguages" element={<ListLanguage/>}/>
-          <Route path='/Listcountries' element={<Listcountries/>}/>
-          <Route path='/Addcountry' element={<Addcountries/>}/>
+          <Route path="/Addads" element={<Addads />} />
+          <Route path="/Listjobs" element={<Listjob />} />
+          <Route path="/Addjobs" element={<Addjobs />} />
+          <Route path="/Listusers" element={<Listusers />} />
+          <Route path="/Adduser" element={<Addusers />} />
+          <Route path="/Listcompanies" element={<Listcompanies />} />
+          <Route path="/Addcompanies" element={<Addcompanies />} />
+          <Route
+            path="/companypaymenthistory"
+            element={<Companypaymenthistory />}
+          />
+          <Route path="/Listcms" element={<Listcms />} />
+          <Route path="/Addcmspage" element={<Addcmspage />} />
+          <Route path="/ListTranslatedpage" element={<ListTranslatedpage />} />
+          <Route path="/AddLanguage" element={<AddLanguage />} />
+          <Route path="/ListLanguages" element={<ListLanguage />} />
+          <Route path="/Listcountries" element={<Listcountries />} />
+          <Route path="/Addcountry" element={<Addcountries />} />
+          <Route path="/Liststate" element={<Liststate />} />
+          <Route path="/Addstate" element={<Addstate />} />
+          <Route path="/Addcity" element={<Addcity />} />
+          <Route path="/Listcity" element={<Listcity />} />
+          <Route path="/Listpackages" element={<ListPackages />} />
+          <Route path="/Addpackages" element={<Addpackage />} />
+          <Route path='/Listcareerlevel' element={<Listcareerlevel/>}/>
+          <Route path="/Addcareerlevel" element={<Addcareerlevel/>}/>
         </Routes>
       </section>
     </React.Fragment>
