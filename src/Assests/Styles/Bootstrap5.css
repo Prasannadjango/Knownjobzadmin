@@ -236,9 +236,11 @@ a {
   text-decoration: underline;
 }
 a:hover {
-  color: #0a58ca;
+  border-left: 4px solid var(--primary-color) !important;
 }
-
+.lkTtqM:focus{
+  background-color: var(--bs-blue) !important;
+}
 a:not([href]):not([class]),
 a:not([href]):not([class]):hover {
   color: inherit;

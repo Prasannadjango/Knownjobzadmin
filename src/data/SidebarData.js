@@ -1,3 +1,4 @@
+
 import * as FaIcons from "react-icons/fa";
 import * as BaIcons from "react-icons/bs";
 import { Link } from 'react-router-dom';
@@ -9,7 +10,7 @@ function SidebarData() {
     <>
       <Sidebar>
         <Menu>
-        <MenuItem icon={<FaIcons.FaHome className="fs-5"/>} routerLink={<Link to="/" />}> Dashboard</MenuItem>
+        <MenuItem icon={<FaIcons.FaHome className="fs-5"/>} routerLink={<Link to="/" />} > Dashboard</MenuItem>
           <SubMenu icon={ <FaIcons.FaUserCheck className="fs-5"/>} label="Admin users">
             <MenuItem routerLink={<Link to="/Listadduser" />}> List all Admin-users </MenuItem>
             <MenuItem routerLink={<Link to="/Addadminusers" />}> Add Admin-users</MenuItem>
@@ -51,8 +52,8 @@ function SidebarData() {
           </SubMenu>
 
           <SubMenu icon={ <FaIcons.FaGlobeAsia className="fs-5"/>} label="Countries">
-            <MenuItem> List Countries </MenuItem>
-            <MenuItem> Add Countries</MenuItem>
+            <MenuItem routerLink={<Link to='/Listcountries'/>}> List Countries </MenuItem>
+            <MenuItem routerLink={<Link to='/Addcountry' />}>Add Countries</MenuItem>
           </SubMenu>
 
           <SubMenu icon={<BaIcons.BsCursorFill className="fs-5"/>} label="State">

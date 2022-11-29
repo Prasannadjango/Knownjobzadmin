@@ -11,10 +11,10 @@ import {
   OverlayTrigger,
   Tooltip,
 } from "react-bootstrap";
-const ListLanguage = () => {
+const Listcountries = () => {
   const navigate = useNavigate();
-  const navigateToLanguage = () => {
-    navigate("/AddLanguage");
+  const navigateToCountries = () => {
+    navigate("/Addcountry");
   };
   const renderTooltip = (props) => (
     <Tooltip id="button-tooltip" {...props}>
@@ -33,15 +33,15 @@ const ListLanguage = () => {
         <div className="Tabs_content text-start p-4">
           <div className="d-flex justify-content-between pb-3">
             <div className="d-flex">
-              <FaIcons.FaLanguage className="fs-3 me-3" />
-              <h4>All Languages</h4>
+              <FaIcons.FaGlobeAsia  className="fs-3 me-3" />
+              <h4>All Countries</h4>
             </div>
             <Button
               className="Btn_color d-flex align-content-center py-2"
-              onClick={navigateToLanguage}
+              onClick={navigateToCountries}
             >
               <FaIcons.FaFolderPlus className="fs-5 me-3 " />
-              Add New Language
+              Add New Countries
             </Button>
           </div>
           <div className="Tabs_header d-flex justify-content-between py-4">
@@ -57,7 +57,7 @@ const ListLanguage = () => {
               <Form>
                 <FormControl
                   type="text"
-                  placeholder="Search for Languages ..."
+                  placeholder="Search for Countries ..."
                 />
               </Form>
             </div>
@@ -66,57 +66,29 @@ const ListLanguage = () => {
             <Table striped bordered hover>
               <thead>
                 <tr>
-                  <th className="col-2">
+                  <th >
                     <FormControl type="text" placeholder="Language" />
                   </th>
-                  <th className="col-2">
-                    <FormControl type="text" placeholder="Native" />
+                  <th >
+                    <FormControl type="text" placeholder="Country" />
                   </th>
-                  <th className="col-2">
-                    <FormControl type="text" placeholder="Iso code" />
-                  </th>
-                  <th className="col-2">
-                    <Form.Select aria-label="Default select example">
-                      <option>Is RTL?</option>
-                      <option value="yes">Yes</option>
-                      <option value="No">No</option>
-                    </Form.Select>
-                  </th>
-                  <th className="col-2">
-                    <Form.Select aria-label="Default select example" className='mb-2'>
-                      <option>Is Default?</option>
-                      <option value="yes">Yes</option>
-                      <option value="No">No</option>
-                    </Form.Select>
-                   
-                  </th>
-                  <th>
-                  <Form.Select aria-label="Default select example">
-                      <option>Is Active?</option>
-                      <option value="yes">Yes</option>
-                      <option value="No">No</option>
-                    </Form.Select>
-                  </th>
+                 
                 
                 </tr>
                 <tr>
                   <th>Languages</th>
 
-                  <th>Native</th>
+                  <th>Country</th>
 
-                  <th>Iso Code</th>
-                  <th>Is RTL?</th>
-                  <th>Is Default?</th>
+                 
                   <th>Actions</th>
                 </tr>
               </thead>
               <tbody>
                 <tr>
                   <td>English</td>
-                  <td>English</td>
-                  <td>ENG</td>
-                  <td>yes</td>
-                  <td>no</td>
+                  <td>America</td>
+              
                   
                   <td>
                     <div className="d-flex justify-content-center">
@@ -163,4 +135,4 @@ const ListLanguage = () => {
   );
 };
 
-export default ListLanguage;
+export default Listcountries;

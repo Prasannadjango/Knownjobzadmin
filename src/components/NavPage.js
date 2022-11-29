@@ -18,6 +18,8 @@ import Addcmspage from "../pages/Addcmspage";
 import ListTranslatedpage from "../pages/ListTranslatedpage";
 import AddLanguage from "../pages/AddLanguages";
 import ListLanguage from "../pages/ListLanguages";
+import Listcountries from "../pages/Listcountries";
+import Addcountries from "../pages/Addcountries";
 
 const NavPage = () => {
   return (
@@ -41,6 +43,8 @@ const NavPage = () => {
           <Route path='/ListTranslatedpage' element={<ListTranslatedpage/>}/>
           <Route path='/AddLanguage' element={<AddLanguage/>}/>
           <Route path="/ListLanguages" element={<ListLanguage/>}/>
+          <Route path='/Listcountries' element={<Listcountries/>}/>
+          <Route path='/Addcountry' element={<Addcountries/>}/>
         </Routes>
       </section>
     </React.Fragment>
