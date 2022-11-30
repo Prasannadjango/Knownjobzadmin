@@ -36,6 +36,18 @@ import Listindustry from "../pages/Listindustries";
 import AddIndustry from "../pages/AddIndustry";
 import Addjobexperience from "../pages/Addjobexperience";
 import Listjobexperience from "../pages/Listjobexperience";
+import Addjobshift from "../pages/Addjobshifts";
+import Listjobshift from "../pages/Listjobshift";
+import Listdegreelevel from "../pages/Listdegreelevel";
+import Adddegreelevel from "../pages/Adddegreelevel";
+import Addresulttype from "../pages/Addresulttype";
+import Listresulttype from "../pages/Listresulttype";
+import Addmaritalstatus from "../pages/Addmaritialstatus";
+import Listmaritialstatus from "../pages/Listmaritialstatus";
+import Listownshiptypes from "../pages/Listownershiptype";
+import Addownershiptype from "../pages/Addownershiptypes";
+import Listsalaryperiods from "../pages/Listsalaryperiods";
+import Addsalaryperiods from "../pages/Addsalaryperiods";
 
 const NavPage = () => {
   return (
@@ -80,6 +92,18 @@ const NavPage = () => {
           <Route path='/Addindustry' element={<AddIndustry/>}/>
           <Route path='/Addjobexperience' element={<Addjobexperience/>}/>
           <Route path="/Listjobexperience" element={<Listjobexperience/>}/>
+          <Route path="/Addjobshift" element={<Addjobshift/>}/>
+          <Route path='/Listjobshift' element={<Listjobshift/>}/>
+          <Route path='/Listdegreelevel' element={<Listdegreelevel/>}/>
+          <Route path="/Adddegreelevel" element={<Adddegreelevel/>}/>
+          <Route path='/Addresulttypes' element={<Addresulttype/>}/>
+          <Route path="/Listresulttype" element={<Listresulttype/>}/>
+          <Route path='/Addmaritalstatus' element={<Addmaritalstatus/>}/>
+          <Route path="/Listmaritalstatus" element={<Listmaritialstatus/>}/>
+          <Route path="/Listownershiptypes" element={<Listownshiptypes/>}/>
+          <Route path='/Addownershiptypes' element={<Addownershiptype/>}/>
+          <Route path='/Listsalaryperiods' element={<Listsalaryperiods/>}/>
+          <Route path="/Addsalaryperiods" element={<Addsalaryperiods/>}/>
         </Routes>
       </section>
     </React.Fragment>

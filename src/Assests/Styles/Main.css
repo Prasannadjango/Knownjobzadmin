@@ -8,7 +8,7 @@
 
 * {
   font-family: "myfont";
-
+  text-transform: capitalize;
 }
 :root {
   --primary-color: #185c89;

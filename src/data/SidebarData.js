@@ -96,28 +96,28 @@ function SidebarData() {
             <MenuItem routerLink={<Link to='/Addjobexperience'/>}> Add Job-Experience</MenuItem>
           </SubMenu>
           <SubMenu icon={<FaIcons.FaUserClock  className="fs-5"/>} label="Job-Shifts">
-            <MenuItem> List Job-Shifts</MenuItem>
-            <MenuItem> Add Job-Shifts</MenuItem>
+            <MenuItem routerLink={<Link to='/Listjobshift'/>}> List Job-Shifts</MenuItem>
+            <MenuItem routerLink={<Link to='/Addjobshift'/>}> Add Job-Shifts</MenuItem>
           </SubMenu>
           <SubMenu icon={<FaIcons.FaUserTie  className="fs-5"/>} label="Degree-level">
-            <MenuItem> List Degree level</MenuItem>
-            <MenuItem> Add Degree level</MenuItem>
+            <MenuItem routerLink={<Link to='/Listdegreelevel'/>}> List Degree level</MenuItem>
+            <MenuItem routerLink={<Link to='/Adddegreelevel'/>}> Add Degree level</MenuItem>
           </SubMenu>
           <SubMenu icon={<FaIcons.FaGraduationCap  className="fs-5"/>} label="Result types">
-            <MenuItem> List Result types</MenuItem>
-            <MenuItem> Add Result types</MenuItem>
+            <MenuItem routerLink={<Link to='/Listresulttype'/>}> List Result types</MenuItem>
+            <MenuItem routerLink={<Link to='/Addresulttypes'/>}> Add Result types</MenuItem>
           </SubMenu>
           <SubMenu icon={<FaIcons.FaVenusMars className="fs-5"/>} label="Marital-status">
-            <MenuItem> List Marital-status</MenuItem>
-            <MenuItem> Add Marital-status</MenuItem>
+            <MenuItem routerLink={<Link to='/Listmaritalstatus'/>}> List Marital-status</MenuItem>
+            <MenuItem routerLink={<Link to='/Addmaritalstatus'/>}> Add Marital-status</MenuItem>
           </SubMenu>
           <SubMenu icon={<FaIcons.FaUser  className="fs-5"/>} label="Ownership-types">
-            <MenuItem> List Ownership-types</MenuItem>
-            <MenuItem> Add Ownership-types</MenuItem>
+            <MenuItem routerLink={<Link to='/Listownershiptypes'/>}> List Ownership-types</MenuItem>
+            <MenuItem routerLink={<Link to='/Addownershiptypes'/>}> Add Ownership-types</MenuItem>
           </SubMenu>
           <SubMenu icon={<FaIcons.FaMoneyBillAlt className="fs-5"/>} label="Salary-Periods">
-            <MenuItem> List Salary-Periods</MenuItem>
-            <MenuItem> Add Salary-Periods</MenuItem>
+            <MenuItem  routerLink={<Link to='/Listsalaryperiods'/>}> List Salary-Periods</MenuItem>
+            <MenuItem routerLink={<Link to='/Addsalaryperiods'/>}> Add Salary-Periods</MenuItem>
           </SubMenu>
           <SubMenu icon={<FaIcons.FaCog className="fs-5"/>} label="Site-settings">
             <MenuItem> Manage Site-settings</MenuItem>
