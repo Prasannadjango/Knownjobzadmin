@@ -48,6 +48,8 @@ import Listownshiptypes from "../pages/Listownershiptype";
 import Addownershiptype from "../pages/Addownershiptypes";
 import Listsalaryperiods from "../pages/Listsalaryperiods";
 import Addsalaryperiods from "../pages/Addsalaryperiods";
+import Listdegreetype from "../pages/Listdegreetype";
+import Adddegreetype from "../pages/Adddegreetype";
 
 const NavPage = () => {
   return (
@@ -97,6 +99,8 @@ const NavPage = () => {
           <Route path='/Listdegreelevel' element={<Listdegreelevel/>}/>
           <Route path="/Adddegreelevel" element={<Adddegreelevel/>}/>
           <Route path='/Addresulttypes' element={<Addresulttype/>}/>
+          <Route path="/Listdegreetype" element={<Listdegreetype/>}/>
+          <Route path='/Adddegreetype' element={<Adddegreetype/>}/>
           <Route path="/Listresulttype" element={<Listresulttype/>}/>
           <Route path='/Addmaritalstatus' element={<Addmaritalstatus/>}/>
           <Route path="/Listmaritalstatus" element={<Listmaritialstatus/>}/>

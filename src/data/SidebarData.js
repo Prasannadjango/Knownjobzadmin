@@ -103,6 +103,10 @@ function SidebarData() {
             <MenuItem routerLink={<Link to='/Listdegreelevel'/>}> List Degree level</MenuItem>
             <MenuItem routerLink={<Link to='/Adddegreelevel'/>}> Add Degree level</MenuItem>
           </SubMenu>
+          <SubMenu icon={<FaIcons.FaBook  className="fs-5"/>} label="Degree-types">
+            <MenuItem routerLink={<Link to='/Listdegreetype'/>}> List Degree Types</MenuItem>
+            <MenuItem routerLink={<Link to='/Adddegreetype'/>}> Add Degree Types</MenuItem>
+          </SubMenu>
           <SubMenu icon={<FaIcons.FaGraduationCap  className="fs-5"/>} label="Result types">
             <MenuItem routerLink={<Link to='/Listresulttype'/>}> List Result types</MenuItem>
             <MenuItem routerLink={<Link to='/Addresulttypes'/>}> Add Result types</MenuItem>
