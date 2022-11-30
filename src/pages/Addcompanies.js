@@ -47,6 +47,10 @@ function Addcompanies() {
             <FormControl type="text" className="py-2 mb-3" />
             <label className="fs-6">Number of Offices:</label>
             <FormControl type="number" className="py-2 mb-3" />
+            <label className="fs-6">Number of Employees:</label>
+            <FormControl type="number" className="py-2 mb-3" />
+            <label className="fs-6">Established in:</label>
+            <FormControl type="number" className="py-2 mb-3" />
             <label className="fs-6">Fax:</label>
             <FormControl type="text" className="py-2 mb-3" />
             <label className="fs-6">Phone number:</label>

@@ -8,6 +8,8 @@ function Addusers() {
         <div className="Tabs_content text-start p-4">
           <h4>Add New User</h4>
           <Form className="Adminuser_form col-8 py-4">
+          <label className="fs-6">User Photo:</label>
+            <FormControl type="file" className="py-2 mb-3" />
             <label className="fs-6">First Name:</label>
             <FormControl type="text" className="py-2 mb-3" />
             <label className="fs-6">Middle Name:</label>
@@ -22,6 +24,10 @@ function Addusers() {
             <FormControl type="text" className="py-2 mb-3" />
             <label className="fs-6">Date of Birth:</label>
             <FormControl type="date" className="py-2 mb-3" />
+            <label className="fs-6">Phone number:</label>
+            <FormControl type="number" className="py-2 mb-3" />
+            <label className="fs-6">Alternate Phone number:</label>
+            <FormControl type="number" className="py-2 mb-3" />
             <label className="fs-6">Gender:</label>
             <Form.Select
               aria-label="Default select example"

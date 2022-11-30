@@ -76,7 +76,11 @@ function Addjobs() {
               <option value="2">Two</option>
               <option value="3">Three</option>
             </Form.Select>
-
+            <label className="fs-6">Job-shift:</label>
+            <Form.Select
+              aria-label="Default select example"
+              className="py-2 mb-3"
+            ></Form.Select>
             <label className="fs-6">Salary-from:</label>
             <FormControl type="text" className="py-2 mb-3" />
             <label className="fs-6">Salary-to:</label>
@@ -125,6 +129,10 @@ function Addjobs() {
               <option value="2">Two</option>
               <option value="3">Three</option>
             </Form.Select>
+            <label className="fs-6">Description:</label>
+            <FormControl type="text" className="py-2 mb-3" as="textarea" rows={3}/>
+            <label className="fs-6">Benefits:</label>
+            <FormControl type="text" className="py-2 mb-3" as="textarea" rows={3}/>
             <label className="fs-6">Is-Active:</label>
             <div className="d-flex">
               <Form.Check

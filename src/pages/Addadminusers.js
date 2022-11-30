@@ -2,10 +2,9 @@ import React from "react";
 import * as FaIcons from "react-icons/fa";
 import {
   Form,
-  Table,
-  Modal,
+ 
   FormControl,
-  Pagination,
+
   Button,
 } from "react-bootstrap";
 const Addadminusers = () => {
@@ -22,7 +21,15 @@ const Addadminusers = () => {
             <label className="fs-6">Password:</label>
             <FormControl type="password" className="py-2 mb-3" />
             <label className="fs-6">Role type:</label>
-            <FormControl type="password" className="py-2 mb-3" />
+            <Form.Select
+              aria-label="Default select example"
+              className="py-2 mb-3"
+            >
+              <option>Select role</option>
+              <option value="1">super admin</option>
+              <option value="2">sub admin</option>
+            
+            </Form.Select>
             <Button className='Btn_color py-2 mt-2'>Create New User</Button>
           </Form>
         </div>

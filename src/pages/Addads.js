@@ -24,7 +24,9 @@ function Addads() {
               <option value="2">Two</option>
               <option value="3">Three</option>
             </Form.Select>
-            <label className="fs-6">Ad title:</label>
+            <label className="fs-6">Ad Title:</label>
+            <FormControl type="text" className="py-2 mb-3" />
+            <label className="fs-6">Ad Image:</label>
             <FormControl type="file" className="py-2 mb-3" />
             <label className="fs-6">Ad Expiry-date:</label>
             <FormControl type="date" className="py-2 mb-3" />
