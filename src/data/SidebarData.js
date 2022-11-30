@@ -77,23 +77,23 @@ function SidebarData() {
           </SubMenu>
 
           <SubMenu icon={<FaIcons.FaBuilding  className="fs-5"/>} label="Functional-areas">
-            <MenuItem> List Functional-areas</MenuItem>
-            <MenuItem> Add Functional-areas</MenuItem>
+            <MenuItem routerLink={<Link to='/Listfunctionalarea' />}> List Functional-areas</MenuItem>
+            <MenuItem routerLink={<Link to='/Addfunctionalarea' />}> Add Functional-areas</MenuItem>
           </SubMenu>
 
           <SubMenu icon={<BaIcons.BsGenderAmbiguous className="fs-5"/>} label="Gender">
-            <MenuItem> List Gender</MenuItem>
-            <MenuItem> Add Gender</MenuItem>
+            <MenuItem routerLink={<Link to='/Listgender'/>}> List Gender</MenuItem>
+            <MenuItem routerLink={<Link to='/Addgender'/>}> Add Gender</MenuItem>
           </SubMenu>
           
           <SubMenu icon={<FaIcons.FaBuilding className="fs-5"/>} label="Industries">
-            <MenuItem> List Industries</MenuItem>
-            <MenuItem> Add Industries</MenuItem>
+            <MenuItem routerLink={<Link to='/Listindustry'/>}> List Industries</MenuItem>
+            <MenuItem routerLink={<Link to='/Addindustry'/>}> Add Industries</MenuItem>
           </SubMenu>
 
           <SubMenu icon={<FaIcons.FaUserTie className="fs-5"/>} label="Job-Experience">
-            <MenuItem> List Job-Experience</MenuItem>
-            <MenuItem> Add Job-Experience</MenuItem>
+            <MenuItem routerLink={<Link to='/Listjobexperience'/>}> List Job-Experience</MenuItem>
+            <MenuItem routerLink={<Link to='/Addjobexperience'/>}> Add Job-Experience</MenuItem>
           </SubMenu>
           <SubMenu icon={<FaIcons.FaUserClock  className="fs-5"/>} label="Job-Shifts">
             <MenuItem> List Job-Shifts</MenuItem>

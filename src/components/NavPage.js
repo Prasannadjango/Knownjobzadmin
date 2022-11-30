@@ -28,6 +28,14 @@ import ListPackages from "../pages/Listpackages";
 import Addpackage from "../pages/Addpackage";
 import Listcareerlevel from "../pages/Listcareerlevel";
 import Addcareerlevel from "../pages/Addcareerlevel";
+import Addfunctionalarea from "../pages/Addfunctionalarea";
+import Listfunctionalarea from "../pages/Listfunctionalarea";
+import Listgender from "../pages/Listgenders";
+import Addgender from "../pages/Addgender";
+import Listindustry from "../pages/Listindustries";
+import AddIndustry from "../pages/AddIndustry";
+import Addjobexperience from "../pages/Addjobexperience";
+import Listjobexperience from "../pages/Listjobexperience";
 
 const NavPage = () => {
   return (
@@ -64,6 +72,14 @@ const NavPage = () => {
           <Route path="/Addpackages" element={<Addpackage />} />
           <Route path='/Listcareerlevel' element={<Listcareerlevel/>}/>
           <Route path="/Addcareerlevel" element={<Addcareerlevel/>}/>
+          <Route path='/Addfunctionalarea' element={<Addfunctionalarea/>}/>
+          <Route path='/Listfunctionalarea' element={<Listfunctionalarea/>}/>
+          <Route path='/Listgender' element={<Listgender/>}/>
+          <Route path='/Addgender' element={<Addgender/>}/>
+          <Route path='/Listindustry' element={<Listindustry/>}/>
+          <Route path='/Addindustry' element={<AddIndustry/>}/>
+          <Route path='/Addjobexperience' element={<Addjobexperience/>}/>
+          <Route path="/Listjobexperience" element={<Listjobexperience/>}/>
         </Routes>
       </section>
     </React.Fragment>
