@@ -50,6 +50,11 @@ function SidebarData() {
             <MenuItem routerLink={<Link to='/ListLanguages'/>}> List Languages </MenuItem>
             <MenuItem routerLink={<Link to='/AddLanguage'/>}> Add Languages</MenuItem>
           </SubMenu>
+              
+          <SubMenu icon={ <FaIcons.FaLanguage className="fs-5"/>} label="Language-Level">
+            <MenuItem routerLink={<Link to='/Listlanguagelevel'/>}> List Language-levels </MenuItem>
+            <MenuItem routerLink={<Link to='/AddLanguagelevel'/>}> Add Language-levels</MenuItem>
+          </SubMenu>
 
           <SubMenu icon={ <FaIcons.FaGlobeAsia className="fs-5"/>} label="Countries">
             <MenuItem routerLink={<Link to='/Listcountries'/>}> List Countries </MenuItem>
@@ -98,6 +103,10 @@ function SidebarData() {
           <SubMenu icon={<FaIcons.FaUserClock  className="fs-5"/>} label="Job-Shifts">
             <MenuItem routerLink={<Link to='/Listjobshift'/>}> List Job-Shifts</MenuItem>
             <MenuItem routerLink={<Link to='/Addjobshift'/>}> Add Job-Shifts</MenuItem>
+          </SubMenu>
+          <SubMenu icon={<FaIcons.FaSortAlphaUp  className="fs-5"/>} label="Job-Skills">
+            <MenuItem routerLink={<Link to='/Listjobskills'/>}> List Job-Skills</MenuItem>
+            <MenuItem routerLink={<Link to='/Addjobshift'/>}> Add Job-Skills</MenuItem>
           </SubMenu>
           <SubMenu icon={<FaIcons.FaUserTie  className="fs-5"/>} label="Degree-level">
             <MenuItem routerLink={<Link to='/Listdegreelevel'/>}> List Degree level</MenuItem>

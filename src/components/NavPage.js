@@ -50,6 +50,9 @@ import Listsalaryperiods from "../pages/Listsalaryperiods";
 import Addsalaryperiods from "../pages/Addsalaryperiods";
 import Listdegreetype from "../pages/Listdegreetype";
 import Adddegreetype from "../pages/Adddegreetype";
+import Listlanguagelevel from "../pages/Listlanguagelevel";
+import AddLanguagelevel from "../pages/Addlanguagelevel";
+import Listjobskills from "../pages/Listjobskills";
 
 const NavPage = () => {
   return (
@@ -108,6 +111,9 @@ const NavPage = () => {
           <Route path='/Addownershiptypes' element={<Addownershiptype/>}/>
           <Route path='/Listsalaryperiods' element={<Listsalaryperiods/>}/>
           <Route path="/Addsalaryperiods" element={<Addsalaryperiods/>}/>
+          <Route path="/Listlanguagelevel" element={<Listlanguagelevel/>}/>
+          <Route path='/Addlanguagelevel' element={<AddLanguagelevel/>}/>
+          <Route path='/Listjobskills' element={<Listjobskills/>}/>
         </Routes>
       </section>
     </React.Fragment>
