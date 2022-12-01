@@ -14,7 +14,7 @@ const MainPage = () => {
       </section>
 
       {/* sidebar section */}
-      <div className="w-100">
+      <div className="w-100 Mainpage-section">
         <div className="d-flex">
           <SidebarData />
            <div className="w-100 ">

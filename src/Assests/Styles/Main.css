@@ -20,11 +20,17 @@ label{
   text-transform: capitalize;
   
 }
+.navbar-sec{
+  z-index: 5;
+}
 .navbar-brand {
   width: 175px;
 }
 .ktVuSn{
   overflow: inherit !important;
+}
+.Mainpage-section{
+  padding-top: 80px;
 }
 .Tabs_content>div:nth-child(1){
   border-bottom: 2px solid var(--secondary-color);
