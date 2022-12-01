@@ -1,6 +1,5 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
-
 import Addadminusers from "../pages/Addadminusers";
 import Home from "../pages/Home";
 import Listadduser from "../pages/Listadduser";
@@ -53,6 +52,9 @@ import Adddegreetype from "../pages/Adddegreetype";
 import Listlanguagelevel from "../pages/Listlanguagelevel";
 import AddLanguagelevel from "../pages/Addlanguagelevel";
 import Listjobskills from "../pages/Listjobskills";
+import Addjobskill from "../pages/Addjobskill";
+import Listmajorsubjects from "../pages/Listmajorsubjects";
+import Addmajorsubject from "../pages/Addmajorsubject";
 
 const NavPage = () => {
   return (
@@ -114,6 +116,9 @@ const NavPage = () => {
           <Route path="/Listlanguagelevel" element={<Listlanguagelevel/>}/>
           <Route path='/Addlanguagelevel' element={<AddLanguagelevel/>}/>
           <Route path='/Listjobskills' element={<Listjobskills/>}/>
+          <Route path="/Addjobskill" element={<Addjobskill/>}/>
+          <Route path='/Listmajorsubjects' element={<Listmajorsubjects/>}/>
+          <Route path="/Addmajorsubjects" element={<Addmajorsubject/>}/>
         </Routes>
       </section>
     </React.Fragment>

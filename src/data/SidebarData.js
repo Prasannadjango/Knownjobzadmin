@@ -106,7 +106,7 @@ function SidebarData() {
           </SubMenu>
           <SubMenu icon={<FaIcons.FaSortAlphaUp  className="fs-5"/>} label="Job-Skills">
             <MenuItem routerLink={<Link to='/Listjobskills'/>}> List Job-Skills</MenuItem>
-            <MenuItem routerLink={<Link to='/Addjobshift'/>}> Add Job-Skills</MenuItem>
+            <MenuItem routerLink={<Link to='/Addjobskill'/>}> Add Job-Skills</MenuItem>
           </SubMenu>
           <SubMenu icon={<FaIcons.FaUserTie  className="fs-5"/>} label="Degree-level">
             <MenuItem routerLink={<Link to='/Listdegreelevel'/>}> List Degree level</MenuItem>
@@ -115,6 +115,10 @@ function SidebarData() {
           <SubMenu icon={<FaIcons.FaBook  className="fs-5"/>} label="Degree-types">
             <MenuItem routerLink={<Link to='/Listdegreetype'/>}> List Degree Types</MenuItem>
             <MenuItem routerLink={<Link to='/Adddegreetype'/>}> Add Degree Types</MenuItem>
+          </SubMenu>
+          <SubMenu icon={<FaIcons.FaBook  className="fs-5"/>} label="Major-subjects">
+            <MenuItem routerLink={<Link to='/Listmajorsubjects'/>}> List Major-subjects</MenuItem>
+            <MenuItem routerLink={<Link to='/Addmajorsubjects'/>}> Add Major-subjects</MenuItem>
           </SubMenu>
           <SubMenu icon={<FaIcons.FaGraduationCap  className="fs-5"/>} label="Result types">
             <MenuItem routerLink={<Link to='/Listresulttype'/>}> List Result types</MenuItem>
