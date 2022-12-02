@@ -34,7 +34,7 @@ const ListTranslatedpage = () => {
           <div className="d-flex justify-content-between pb-3">
             <div className="d-flex">
               <FaIcons.FaTasks className="fs-3 me-3" />
-              <h4>All C.M.S</h4>
+              <h4>All C.M.S Translated Page</h4>
             </div>
             <Button
               className="Btn_color d-flex align-content-center py-2"
@@ -55,7 +55,7 @@ const ListTranslatedpage = () => {
             </div>
             <div>
               <Form>
-                <FormControl type="text" placeholder="Search for Cms ..." />
+                <FormControl type="text" placeholder="Search for Translated Page ..." />
               </Form>
             </div>
           </div>
@@ -67,14 +67,14 @@ const ListTranslatedpage = () => {
                     <FormControl type="text" placeholder="Id" />
                   </th>
                   <th>
-                    <FormControl type="text" placeholder="Page name" />
+                    <FormControl type="text" placeholder="Page title" />
                   </th>
                   <th></th>
                 </tr>
                 <tr>
                   <th>Id</th>
 
-                  <th>Page Name</th>
+                  <th>Page Title</th>
 
                   <th>Actions</th>
                 </tr>

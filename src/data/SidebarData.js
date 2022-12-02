@@ -137,7 +137,7 @@ function SidebarData() {
             <MenuItem routerLink={<Link to='/Addsalaryperiods'/>}> Add Salary-Periods</MenuItem>
           </SubMenu>
           <SubMenu icon={<FaIcons.FaCog className="fs-5"/>} label="Site-settings">
-            <MenuItem> Manage Site-settings</MenuItem>
+            <MenuItem routerLink={<Link to='/Managesitesettings'/>}> Manage Site-settings</MenuItem>
             
           </SubMenu>
         </Menu>
