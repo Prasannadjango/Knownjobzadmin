@@ -13,8 +13,8 @@ import {
 } from "react-bootstrap";
 const ListTranslatedpage = () => {
   const navigate = useNavigate();
-  const navigateToAddcms = () => {
-    navigate("/Addcmspage");
+  const navigateToAddtranslatedcms = () => {
+    navigate("/Addtranslatedpage");
   };
   const renderTooltip = (props) => (
     <Tooltip id="button-tooltip" {...props}>
@@ -38,10 +38,10 @@ const ListTranslatedpage = () => {
             </div>
             <Button
               className="Btn_color d-flex align-content-center py-2"
-              onClick={navigateToAddcms}
+              onClick={navigateToAddtranslatedcms}
             >
               <FaIcons.FaFolderPlus className="fs-5 me-3 " />
-              Add New C.M.S Page
+              Add New Translated C.M.S Page
             </Button>
           </div>
           <div className="Tabs_header d-flex justify-content-between py-4">

@@ -43,7 +43,7 @@ function SidebarData() {
             <MenuItem routerLink={<Link to='/Listcms'/>}> List C.M.S </MenuItem>
             <MenuItem routerLink={<Link to='/Addcmspage'/>}> Add C.M.S </MenuItem>
             <MenuItem routerLink={<Link to='/ListTranslatedpage'/>}> List Translated Pages </MenuItem>
-            <MenuItem > Add New Translated Page </MenuItem>
+            <MenuItem routerLink={<Link to='/Addtranslatedpage'/>}> Add New Translated Page </MenuItem>
           </SubMenu>
 
           <SubMenu icon={ <FaIcons.FaLanguage className="fs-5"/>} label="Languages">

@@ -56,6 +56,7 @@ import Addjobskill from "../pages/Addjobskill";
 import Listmajorsubjects from "../pages/Listmajorsubjects";
 import Addmajorsubject from "../pages/Addmajorsubject";
 import Managesitesettings from "../pages/sitesettings";
+import Addtranslatedpages from "../pages/Addtranslatedpages";
 
 const NavPage = () => {
   return (
@@ -121,6 +122,7 @@ const NavPage = () => {
           <Route path='/Listmajorsubjects' element={<Listmajorsubjects/>}/>
           <Route path="/Addmajorsubjects" element={<Addmajorsubject/>}/>
           <Route path='/Managesitesettings' element={<Managesitesettings/>}/>
+          <Route path='/Addtranslatedpage' element={<Addtranslatedpages/>}/>
         </Routes>
       </section>
     </React.Fragment>
