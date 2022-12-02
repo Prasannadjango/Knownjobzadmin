@@ -364,3 +364,24 @@ input::-webkit-datetime-edit {
   padding: 8px !important;
   border-radius: 6px !important;
 }
+.seeall_btn{
+  background-color: var(--primary-color) !important;
+  color: #fff !important;
+}
+.Recentregister_container{
+  border:1px solid rgb(161, 161, 161);
+  border-radius: 15px;
+  padding: 15px;
+}
+.Recentregister_container>div:nth-child(1){
+  border-bottom: 2px solid var(--secondary-color);
+  padding-bottom: 15px;
+}
+.table-responsive {
+  max-height:300px;
+  overflow: hidden;
+}
+.table-responsive:hover{
+  overflow-y: auto;
+}
+

@@ -12,7 +12,7 @@ import {
   Modal,
   FormControl,
 } from "react-bootstrap";
-import { FaUserCheck, FaUserTie, FaUserTag, FaBriefcase } from "react-icons/fa";
+import { FaUserCheck, FaUserTie, FaUserTag, FaBriefcase, FaUserCircle,FaRegIdCard } from "react-icons/fa";
 import Cardbg from "../Assests/Images/cardbg.svg";
 const Home = () => {
   return (
@@ -115,6 +115,93 @@ const Home = () => {
                   </div>
                 </Card.Body>
               </Card>
+            </Col>
+          </Row>
+
+          <Row xs={1} xl={2} className="gx-4 mt-5">
+            <Col>
+              <div className='Recentregister_container'>
+                <div className="d-flex justify-content-between align-content-center align-items-center">
+                  <h4 className="d-flex align-content-center align-items-center"><FaUserCircle className="fs-1 me-2"/>Recent Registered Users</h4>
+                  <Button className='seeall_btn'>See all Users</Button>
+                </div>
+                <div className='table-responsive '>
+                  <Table striped>
+
+                    <tbody >
+                      <tr>
+                        <td className="py-2 d-flex align-items-center mt-2">
+                          <FaRegIdCard className='fs-3' />
+                          <p className="m-0 ps-2 fs-6">rambo(rambokat@gmail.com)</p>
+                        </td>
+                        <td className="py-2 d-flex align-items-center mt-2">
+                          <FaRegIdCard className='fs-3' />
+                          <p className="m-0 ps-2 fs-6">rambo(rambokat@gmail.com)</p>
+                        </td>
+                        <td className="py-2 d-flex align-items-center mt-2">
+                          <FaRegIdCard className='fs-3' />
+                          <p className="m-0 ps-2 fs-6">rambo(rambokat@gmail.com)</p>
+                        </td>
+                        <td className="py-2 d-flex align-items-center mt-2">
+                          <FaRegIdCard className='fs-3' />
+                          <p className="m-0 ps-2 fs-6">rambo(rambokat@gmail.com)</p>
+                        </td>
+                        <td className="py-2 d-flex align-items-center mt-2">
+                          <FaRegIdCard className='fs-3' />
+                          <p className="m-0 ps-2 fs-6">rambo(rambokat@gmail.com)</p>
+                        </td>
+                        <td className="py-2 d-flex align-items-center mt-2">
+                          <FaRegIdCard className='fs-3' />
+                          <p className="m-0 ps-2 fs-6">rambo(rambokat@gmail.com)</p>
+                        </td>
+
+                      </tr>
+                    </tbody>
+                  </Table>
+                </div>
+              </div>
+            </Col>
+            <Col>
+              <div className='Recentregister_container'>
+                <div className="d-flex justify-content-between align-content-center align-items-center">
+                <h4 className="d-flex align-content-center align-items-center"><FaBriefcase className="fs-1 me-2"/>Recent jobs</h4>
+                  <Button className='seeall_btn'>See all jobs</Button>
+                </div>
+                <div className='table-responsive '>
+                  <Table striped>
+
+                    <tbody >
+                      <tr>
+                        <td className="py-2 d-flex align-items-center mt-2">
+                          <FaRegIdCard className='fs-3' />
+                          <p className="m-0 ps-2 fs-6">rambo(rambokat@gmail.com)</p>
+                        </td>
+                        <td className="py-2 d-flex align-items-center mt-2">
+                          <FaRegIdCard className='fs-3' />
+                          <p className="m-0 ps-2 fs-6">rambo(rambokat@gmail.com)</p>
+                        </td>
+                        <td className="py-2 d-flex align-items-center mt-2">
+                          <FaRegIdCard className='fs-3' />
+                          <p className="m-0 ps-2 fs-6">rambo(rambokat@gmail.com)</p>
+                        </td>
+                        <td className="py-2 d-flex align-items-center mt-2">
+                          <FaRegIdCard className='fs-3' />
+                          <p className="m-0 ps-2 fs-6">rambo(rambokat@gmail.com)</p>
+                        </td>
+                        <td className="py-2 d-flex align-items-center mt-2">
+                          <FaRegIdCard className='fs-3' />
+                          <p className="m-0 ps-2 fs-6">rambo(rambokat@gmail.com)</p>
+                        </td>
+                        <td className="py-2 d-flex align-items-center mt-2">
+                          <FaRegIdCard className='fs-3' />
+                          <p className="m-0 ps-2 fs-6">rambo(rambokat@gmail.com)</p>
+                        </td>
+
+                      </tr>
+                    </tbody>
+                  </Table>
+                </div>
+              </div>
             </Col>
           </Row>
         </div>
